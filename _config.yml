@@ -3,17 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: nhhxx 的博客
+subtitle: 你好好想想
+description: nhhxx 的个人博客，记录技术、生活与思考。
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - nhhxx
+  - blog
+  - technology
+author: nhhxx
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://nhhxx3043-dot.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,11 +99,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Cxo
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:nhhxx3043-dot/nhhxx.github.io.git
-  branch: master
+  repo: git@github.com:nhhxx3043-dot/nhhxx3043-dot.github.io.git
+  branch: gh-pages
